@@ -5,7 +5,7 @@
  */
 body {
   overflow-x: hidden;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Libre Baskerville", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
   color: #777777;
@@ -42,9 +42,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Libre Baskerville", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+}
+img {
+  margin-bottom: 25px;
 }
 .img-centered {
   margin: 0 auto;
@@ -59,7 +62,7 @@ h6 {
   color: white;
   background-color: #fed136;
   border-color: #fed136;
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Libre Baskerville", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -103,7 +106,7 @@ fieldset[disabled] .btn-primary.active {
   color: white;
   background-color: #fed136;
   border-color: #fed136;
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Libre Baskerville", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border-radius: 3px;
@@ -152,7 +155,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-brand {
   color: #fed136;
-  font-family: "Lobster", "Helvetica Neue", Helvetica, Arial, cursive;
+  font-family: "Libre Baskerville", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -226,10 +229,10 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/basement-bg.jpg');
+  background-image: url('../img/khalid-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: left center;
+  background-position: right center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -249,14 +252,14 @@ header .intro-text .intro-date {
   margin-bottom: 25px;
 }
 header .intro-text .intro-lead-in {
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Libre Baskerville", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 25px;
 }
 header .intro-text .intro-heading {
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Libre Baskerville", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 50px;
@@ -283,14 +286,14 @@ header .btn-xl {
     margin-bottom: 50px;
   }
   header .intro-text .intro-lead-in {
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Libre Baskerville", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 25px;
   } 
   header .intro-text .intro-heading {
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Libre Baskerville", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 75px;
@@ -374,7 +377,7 @@ section h3.section-subheading {
   font-size: 20px;
   text-align: center;
   text-transform: uppercase;
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Libre Baskerville", "Helvetica Neue", Helvetica, Arial, sans-serif;
   top: 50%;
   margin-top: -12px;
   color: white;
@@ -646,27 +649,27 @@ section#contact .form-control:focus {
   box-shadow: none;
 }
 section#contact ::-webkit-input-placeholder {
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Libre Baskerville", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
 }
 section#contact :-moz-placeholder {
   /* Firefox 18- */
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Libre Baskerville", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
 }
 section#contact ::-moz-placeholder {
   /* Firefox 19+ */
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Libre Baskerville", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
 }
 section#contact :-ms-input-placeholder {
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Libre Baskerville", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
@@ -684,14 +687,14 @@ footer {
 }
 footer span.copyright {
   line-height: 40px;
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Libre Baskerville", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
 }
 footer ul.quicklinks {
   margin-bottom: 0;
   line-height: 40px;
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Libre Baskerville", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
 }
