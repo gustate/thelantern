@@ -328,6 +328,14 @@ section h3.section-subheading {
   text-transform: none;
 }
 
+#tickets h3 {
+  margin-bottom: 30px;
+}
+
+#tickets h4 {
+  margin-top: 25px;
+}
+
 #portfolio .section-subheading {
   margin-bottom: 50px;
 }
