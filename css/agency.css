@@ -262,8 +262,8 @@ header .intro-text .intro-heading {
   font-family: "Libre Baskerville", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 50px;
-  line-height: 50px;
+  font-size: 36px;
+  line-height: 42px;
   margin-bottom: 25px;
   color: #fed136;
 }
@@ -296,8 +296,8 @@ header .btn-xl {
     font-family: "Libre Baskerville", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 75px;
-    line-height: 75px;
+    font-size: 42px;
+    line-height: 50px;
     margin-bottom: 25px;
     color: #fed136;
   }

@@ -33,6 +33,9 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- Tockify Calendar snippet -->
+    <script data-cfasync="false" data-tockify-script="embed" src="https://public.tockify.com/browser/embed.js"></script>
+
     <!-- Google Analytics snippet -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -56,7 +59,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">The Lantern Comedy Club</a>
+                <a class="navbar-brand page-scroll" href="#page-top"><span class="hidden-xs">The </span>Lantern Comedy<span class="hidden-xs"> Club</span></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -89,12 +92,15 @@
         <div class="container">
             <div class="intro-text">
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-sm-6 col-md-7">
                         <div class="intro-heading">Home of the Best Free Comedy in the Village</div>
                         <div class="intro-date">No cover, $5 margaritas</div>
                         <a href="#tickets" class="page-scroll btn btn-xl">Reserve seats</a>
                         <h3>Sun-Thurs: 8pm, 10pm</h3>
                         <h3>Fri-Sat: 6pm, 8pm, 10pm, Midnight</h3>
+                    </div>
+                    <div class="col-sm-6 col-md-5">
+                        <div data-tockify-component="mini" data-tockify-calendar="lanterncomedy"></div>
                     </div>
                 </div>
             </div>
