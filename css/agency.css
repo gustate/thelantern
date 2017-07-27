@@ -229,10 +229,10 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/khalid-bg.jpg');
+  background-image: url('../img/usama-bg-2.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: right center;
+  background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
