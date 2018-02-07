@@ -240,6 +240,19 @@ header {
   text-align: center;
   color: white;
 }
+header .thank-you-text {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+header .thank-you-text h2 {
+  text-transform: none;
+  color: #fed136;
+}
+header .thank-you-text h3 {
+  text-transform: none;
+}
+
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
