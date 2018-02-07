@@ -240,6 +240,18 @@ header {
   text-align: center;
   color: white;
 }
+.thank-you {
+  background-image: url('../img/abby-bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: left center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+}
 header .thank-you-text {
   padding-top: 50px;
   padding-bottom: 50px;
